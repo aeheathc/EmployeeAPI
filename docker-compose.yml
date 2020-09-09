@@ -135,7 +135,7 @@ services:
       - dev-certs:/certs:rw
     ports:
       - target: 80
-        published: 80
+        published: 8000
         protocol: tcp
 
 volumes:
